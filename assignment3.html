@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment3</title>
+    <style>
+        #Qualification{
+            width: 140px;
+        }
+        #Experience{
+            width: 110px;
+        }
+        #Address{
+            width: 158px;
+            height: 35px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <!--BOX FOR FIRSTNAME-->
+            <label for="Firstname"><b>First Name:</b></label><br>
+            <input type="text" name="Firstname" id="firstname"><br><br>
+
+            <!--BOX FOR LASTNAME-->
+            <label for="Lastname"><b>Last Name:</b></label><br>
+            <input type="text" name="Lastname" id="lastname"><br><br>
+
+            <!--BOX FOR EMAIL-->
+            <label for="email"><b>Email:</b></label><br>
+            <input type="email" name="email" id="Email"><br><br>
+
+            <!--BOX FOR CONTACT NUMBER-->
+            <label for="contact"><b>Contact Number:</b></label><br>
+            <input type="number" name="contact" id="Contact"><br><br>
+        </div>
+
+        <div>
+            <!--BOX FOR ADDRESS-->
+            <b>Address:</b> <br/>
+            <textarea name="address" id="Address" cols="20" rows="3"></textarea> <br><br>
+        </div>
+
+        <div>
+            <!--BOX FOR USERNAME-->
+            <label for="username"><b>Username:</b></label><br>
+            <input type="text" id="Username" name="username"><br><br>
+
+            <label for="password"><b>Password:</b></label><br>
+            <input type="password" name="password" id="Password"><br><br>
+        </div>
+
+        <div>
+            <!--RADIO BOX FOR GENDER-->
+            <label for="gender"><b>Gender:</b></label><br>
+            <input type="radio" name="gender" id="Gender" value="male"><b>Male</b><br>
+            <input type="radio" name="gender" id="Gender" value="female"><b>Female</b><br><br>
+        </div>
+
+        <div>
+            <!--SELECTION OF THE QUALIFICATION-->
+            <label for="qualification"><b>Qualification:</b></label><br>
+            <select name="qualification" id="Qualification">
+                <option value="select" selected>--Select--</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="BE">BE</option>
+                <option value="Deploma">Deploma</option>
+                <option value="M.TECH">M.Tech</option>
+            </select>
+        </div><br>
+
+        <div>
+            <!--SELECTION OF THE EXPERIENCE-->
+            <label for="experience"><b>Experience:</b></label><br>
+            <select name="experience" id="Experience">
+                <option value="select" selected>--Select--</option>
+                <option value="fresher">Fresher</option>
+                <option value="less than zero">&lt0 Year</option>
+                <option value="one">1 Year</option>
+                <option value="two">2 Years</option>
+                <option value="three">3 Years</option>
+                <option value="four">4 Years</option>
+                <option value="five">5 Years</option>
+                <option value="more than five years">&gt 5 Years</option>
+            </select>
+        </div><br>
+
+        <div>
+            <!--CHECKBOX FOR THE CODING LANGUAGES-->
+            <label for="languages"><b>Coding Languages:</b></label><br>
+            <input type="checkbox" name="c1" id="C/C++" value="C/C++"><b> C/C++</b> <br>
+            <input type="checkbox" name="c2" id="Java" value="java"><b> Java</b> <br>
+            <input type="checkbox" name="c3" id="C#" value="C#"><b> C#</b> <br>
+            <input type="checkbox" name="c4" id="Php" value="php"><b> PHP</b> <br>
+            <input type="checkbox" name="c5" id="Python" value="python"><b> Python</b> <br>
+        </div><br><br><br>
+
+        <div>
+            <!--SUBMIT BUTTON-->
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+
+
+</body>
+</html>
+
+
